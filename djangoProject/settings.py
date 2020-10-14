@@ -25,7 +25,7 @@ SECRET_KEY = 're3@%$w+8s+_#b3w!6ltyi(=5=#@67+*#@b16yr(0^fg5=36^!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -68,6 +68,7 @@ TEMPLATES = [
     },
 ]
 
+# deployment of application
 WSGI_APPLICATION = 'djangoProject.wsgi.application'
 
 
